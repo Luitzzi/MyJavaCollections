@@ -22,7 +22,9 @@ This project is a summary of them organised in the structure of the java collect
   * All algorithms are implemented in a generic way allowing all datatypes extending Comparable. <br/>
   * The searchtree algorithms follow a hierarchical structure:
     * AbstractSearchtree implements the core functionality of a searchtree and defines the node generically.
-      With this the searchtree variations overwrite the necessary methods and can define the specific node they need.<br/><br/>
+      With this the searchtree variations overwrite the necessary methods and can define the specific node they need.<br/>
+    * The following UML-Diagram displays this structure:<br/>
+  ![Searchtree UML-Diagram](/images/trees.png)
 * **Test the functionality of the classes using the framework JUnit**<br/>
   * To ensure that the algorithms work properly and to cover all edge cases I tried out the testing framework JUnit.
   
